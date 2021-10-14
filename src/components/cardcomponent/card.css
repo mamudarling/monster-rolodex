@@ -15,7 +15,22 @@
 .card-container:hover{
     transform: scale(1.05);
 }
+.head{
+   text-align: center;
+   color: black;
+}
 .robo{
     width: 180px;
     height: 180px;
+}
+@media (min-width: 411px) and (max-width: 731px) { 
+    .robo{
+        width: 150px;
+        height: 150px; 
+        margin-left: 5rem;
+    }
+    .head{
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
 }
