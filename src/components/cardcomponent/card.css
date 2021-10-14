@@ -1,0 +1,21 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* background-color:  linear-gradient(to right, #ff66cc 0%, #000099 100%);;; */
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing:grayscale;
+    transform: translate(0);
+    transition: transform 0.25s ease-out;
+}
+.card-container:hover{
+    transform: scale(1.05);
+}
+.robo{
+    width: 180px;
+    height: 180px;
+}
