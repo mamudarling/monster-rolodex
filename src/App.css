@@ -6,7 +6,7 @@
 .main{
   background:  linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   width: auto;
-  height: auto;
+  height: 100rem;
   /* background-color: black; */
  
   /* background: url('./Assets//water.jpg');
@@ -26,8 +26,16 @@
   /* margin-top: 1rem; */
 }
 
-@media only screen and (max-width: 300px) { 
+@media (prefers-reduced-motion: no-preference) {
 
+ .main{
+  min-height: 400vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+ }
  .textarea{
    font-size: 2.5rem;
    text-align: center;
