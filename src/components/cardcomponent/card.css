@@ -23,7 +23,7 @@
     width: 180px;
     height: 180px;
 }
-@media (min-width: 411px) and (max-width: 731px) { 
+@media (max-width: 731px) { 
     .robo{
         width: 150px;
         height: 150px; 

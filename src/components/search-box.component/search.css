@@ -8,7 +8,7 @@
     /* border-width: 1rem; */
    }
 
-   @media (min-width: 411px) and (max-width: 731px) {
+   @media  (max-width: 731px) {
        .text{
            margin-left: 80px;
            padding: 1rem;

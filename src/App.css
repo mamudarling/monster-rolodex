@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 .main{
-  /* background:  linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  background:  linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   width: auto;
   height: 100rem;
-  background-color: black;
+  /* background-color: black; */
  
   /* background: url('./Assets//water.jpg');
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
   /* margin-top: 1rem; */
 }
 
-@media (min-width: 411px) and (max-width: 731px) { 
+@media (max-width: 731px) { 
   *{
     margin: 10;
     padding: 0;
