@@ -31,6 +31,6 @@
  .main{
  display: flex;
  flex-direction: column;
- height: auto;
+ height: 180rem;
  }
  }

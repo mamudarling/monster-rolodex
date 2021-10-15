@@ -7,6 +7,7 @@
     border-radius: 5px;
     padding: 25px;
     cursor: pointer;
+    align-items: center;
     backface-visibility: hidden;
     -moz-osx-font-smoothing:grayscale;
     transform: translate(0);
@@ -18,6 +19,8 @@
 .head{
    text-align: center;
    color: black;
+   font-size: 16px;
+   padding-top: 1rem;
 }
 .robo{
     width: 180px;
