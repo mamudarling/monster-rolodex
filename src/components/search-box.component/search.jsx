@@ -4,7 +4,7 @@ import './search.css'
 
 const   Search = ({placeholder,handleChange}) =>{
     return(
-        <div>
+        <div className='container'>
             <input 
          className='text'
        onChange={handleChange} 
