@@ -3,7 +3,7 @@
     padding: 0.7rem;
     margin-top: 1rem;
     margin-bottom: 3rem;
-    border-radius: 0.3rem;
+    /* border-radius: 0.3rem; */
     width: 16rem;
     /* border-width: 1rem; */
    }
@@ -11,11 +11,10 @@
        display: flex;
        justify-content: center;
    }
-/* 
-   @media only screen and (max-width: 300px)  { 
+   @media only screen and (max-width: 500px) { 
 
-       .text{
-           margin-left: -30px;
-           padding: 1rem;
-       }
-    } */
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    }
