@@ -2,7 +2,7 @@ import react from "react";
 
 import './search.css'
 
-const Search = ({placeholder,handleChange}) =>{
+const   Search = ({placeholder,handleChange}) =>{
     return(
         <div>
             <input 
